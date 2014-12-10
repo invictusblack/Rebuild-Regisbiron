@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: yellow;
+  background color: blue;
   font-family: $font-stack;
   color: $black;
   max-width: 1200 / 16 * 1em;
@@ -23,11 +23,12 @@ body {
 }
 
 img{
-  max-width: 100%;
+  max-width: 25%;
 }
 
 .container{
   @include clearfix;
+}
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
